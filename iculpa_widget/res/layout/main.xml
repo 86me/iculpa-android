@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top"
+	android:background="@drawable/iculpa_app_bg"
+	android:paddingTop="168dip"
+    >
+
+<EditText android:id="@+id/apology_input"
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:layout_gravity="top"
+		  android:padding="6dip"
+		  android:maxLines="10"
+		  android:inputType="textAutoCorrect|textCapSentences|textMultiLine"
+		  android:imeOptions="actionSend|flagNoEnterAction"
+		  android:hint="@string/apology_hint"
+		  />
+
+<Button android:id="@+id/apology_submit"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right"
+		android:paddingRight="6dip"
+		android:text="@string/apology_submit_text"/>
+
+<!--		
+<Button android:id="@+id/prefs_submit"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right"
+		android:paddingRight="12dip"
+		android:text="@string/prefs_submit_text"/>
+-->
+	
+<TextView android:id="@+id/app_textview"
+	android:text="@string/app_text"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:layout_marginTop="12dip"
+    android:padding="6dip"
+    android:textColor="#000000"
+    />
+
+</LinearLayout>

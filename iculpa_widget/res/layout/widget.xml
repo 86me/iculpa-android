@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|center"
+    android:background="@drawable/iculpa_widget_bg"
+    >
+<!--
+<ImageButton android:id="@+id/imagebutton"
+	android:src="@drawable/culpa_button"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"/>
+-->
+
+<TextView android:id="@+id/widget_textview"
+	android:text="@string/widget_text"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="64dp"
+    android:layout_marginRight="6dp"
+    android:paddingLeft="4dp"
+    android:autoLink="all"
+    android:textColor="#000000"
+    android:height="48dp"
+    android:width="248dp"
+    android:textSize="16px"
+    android:fadingEdge="vertical"
+    />
+</LinearLayout>

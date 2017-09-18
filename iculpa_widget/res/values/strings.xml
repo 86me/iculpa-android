@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_text">Welcome to the beta iCulpa Apology app for Android! We are making major headway, but there are still many features to add to the application. We hope you enjoy using it!</string>
+    <string name="app_name">iCulpa</string>
+	<string name="widget_text">Loading Apologies...</string>
+	<string name="apology_hint">What are you sorry for?</string>
+	<string name="apology_submit_text">Apologize</string>
+	<string name="prefs_submit_text">Preferences</string>
+	<string name="set_preferences">Prefs. String</string>
+</resources>
